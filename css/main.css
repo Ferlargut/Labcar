@@ -10,7 +10,6 @@
     align-items:center;
     justify-content: center;
     width: 101%;
-    margin-left: -15px;
     padding-right: 0px;
 }
 .colum-nav{
@@ -23,17 +22,44 @@
     border: none;
 }
 .img-taxy{
-    height: 650px;
+    height: 700px;
     width: 100%; 
-    background-image: url(../img/taxi.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;    
+    background-image: url(../img/taxi2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;  
+    display: flex;
+    flex-direction: row-reverse;  
+    align-items: center;
 }
 .form-taxi{    
     background-color: #f7b617;
     font-size: 1vw;
     height: 60%;
-    width: 30%;
-    margin-top: 14%;
-    
+    width: 30%;    
+    margin-right: 2%;
+    position: initial;
 }
+.container-section{
+    height: 500px;
+    width: 100%;
+    background-color: #f7b617;    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 1%;
+    padding-top: 2%;
+    }
+.container-p-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 1.4vw;
+    width: 73%;
+    height: 98%;
+    margin-left: -1%;
+    border: 1px solid white;
+    border-left: none;
+    padding-left: 3%;
+}
+
