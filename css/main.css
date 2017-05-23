@@ -4,9 +4,14 @@
     width: 20%;
 }
 .container-flex{
+    background-color: white;
+    position: fixed;    
     display: flex;
-    flex-direction: row;
     align-items:center;
+    justify-content: center;
+    width: 101%;
+    margin-left: -15px;
+    padding-right: 0px;
 }
 .colum-nav{
     display: flex;
@@ -14,6 +19,21 @@
     margin: 2%;    
 }
 .btn-font{
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     border: none;
+}
+.img-taxy{
+    height: 650px;
+    width: 100%; 
+    background-image: url(../img/taxi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+.form-taxi{    
+    background-color: #f7b617;
+    font-size: 1vw;
+    height: 60%;
+    width: 30%;
+    margin-top: 14%;
+    
 }
