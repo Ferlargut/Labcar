@@ -1,0 +1,19 @@
+.img-nav{
+    margin: 2%;
+    height: 70%;
+    width: 20%;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.colum-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2%;    
+}
+.btn-font{
+    font-size: 1.7vw;
+    border: none;
+}
