@@ -17,6 +17,7 @@
     justify-content: center;
     width: 101%;
     padding-right: 0px;
+    z-index: 8000;
 }
 .colum-nav{
     display: flex;
