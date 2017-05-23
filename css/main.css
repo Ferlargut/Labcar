@@ -50,6 +50,7 @@
     padding-top: 2%;
     }
 .container-p-img{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,5 +62,47 @@
     border: 1px solid white;
     border-left: none;
     padding-left: 3%;
+}
+.container-d{
+    height: 700px;
+    width: 100%; 
+    background-image: url(../img/conduce2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;  
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+
+}
+.not-move{
+        position: initial;
+}
+.form-conduc{
+
+    height: 100%;
+    width: 30%;            
+    background-color: gray;
+    opacity:0.5; 
+        
+}
+.form-conduc-sec{
+    margin-top: 50%;
+    color: white;
+    font-size: 1.7vw;    
+    margin-right: 2%;
+    position: initial;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    opacity: none;
+
+}
+.button-conduc{
+    color: white;
+    background-color: #f7b617;
+    width: 50%;
+    align-self: center;
 }
 
